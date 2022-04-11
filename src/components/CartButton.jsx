@@ -20,6 +20,9 @@ const CartButton = () => {
       <button onClick={()=> decrement()}>-</button>
       <p className="count-item">{count}</p>
       <button onClick={()=> increment()}>+</button>
+      <button>-</button>
+      {/* <p className="count-item">{count}</p> */}
+      <button>+</button>
   </div>
   </>;
 };
