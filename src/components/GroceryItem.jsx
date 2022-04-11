@@ -1,5 +1,10 @@
 // reusable card component
 const GroceryItem = () => {
-  return <></>;
+  // const {title , imgURL, mrp,sellingPrice,discount} = props
+  return
+   <>
+        {/* <img src="{item}" alt="" /> */}
+
+  </>;
 };
 export default GroceryItem;
